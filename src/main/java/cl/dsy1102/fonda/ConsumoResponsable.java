@@ -1,4 +1,10 @@
 package cl.dsy1102.fonda;
 
-public class ConsumoResponsable {
+    public interface ConsumoResponsable {
+        boolean tieneVentaRestringida();
+
+        void restringirVenta();
+
+        boolean superaLimite(int unidades)
+
 }
