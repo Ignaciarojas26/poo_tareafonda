@@ -5,6 +5,6 @@ package cl.dsy1102.fonda;
 
         void restringirVenta();
 
-        boolean superaLimite(int unidades)
+        boolean superaLimite(int unidades);
 
 }
