@@ -59,7 +59,7 @@ public class BebidaAlcoholica extends Bebida implements ConsumoResponsable {
     public String obtenerDetalle() {
         return "Tipo: Bebida Alcoholica | Nombre: " + getNombre() + " | Volumen: " + getVolumenML() + " ml" + " | Stock: " + getStock()
                 + " | Grados: " + gradosAlcohol + " | Certificada: " + (isCertificada() ? "Sí" : "No") +
-                " | Venta restringida: " + (tieneVentaRestringida() ? "Si" : "No")+ " | Precio: $" + calcularPrecio();
+                " | Venta restringida: " + (tieneVentaRestringida() ? "S1i" : "No")+ " | Precio: $" + calcularPrecio();
     }
 
 }

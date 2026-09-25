@@ -33,7 +33,6 @@ public abstract class Bebida {
         this.volumenML = volumenML;
     }
     public int getStock() {
-
         return stock;
     }
     public void setStock(int stock) {
